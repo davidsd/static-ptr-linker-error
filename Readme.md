@@ -2,7 +2,7 @@ If one attempts to compile this executable with `stack build`, the
 result is a linker error:
 
     .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp/Main.o:ghc_5.c:function hs_spt_init_Main: error: undefined reference to 'rcs4_closure'
-collect2: error: ld returned 1 exit status
+    collect2: error: ld returned 1 exit status
     `gcc' failed in phase `Linker'. (Exit code: 1)
 
     --  While building custom Setup.hs for package static-ptr-linker-error-0.1.0.0 using:
