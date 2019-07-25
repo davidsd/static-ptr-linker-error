@@ -1,0 +1,112 @@
+Building all executables for `static-ptr-linker-error' once. After a successful build of all of them, only specified executables will be rebuilt.
+static-ptr-linker-error-0.1.0.0: configure (exe)
+static-ptr-linker-error-0.1.0.0: build (exe)
+Log files have been written to: /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/logs/
+
+--  While building custom Setup.hs for package static-ptr-linker-error-0.1.0.0 using:
+      /central/home/dssimmon/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_mPHDZzAJ_2.0.1.0_ghc-8.2.2 --verbose --builddir=.stack-work/dist/x86_64-linux/Cabal-2.0.1.0 build exe:linker-error-exec --ghc-options " -ddump-hi -ddump-to-file"
+    Process exited with code: ExitFailure 1
+    Logs have been written to: /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/logs/static-ptr-linker-error-0.1.0.0.log
+
+    Configuring static-ptr-linker-error-0.1.0.0...
+    Dependency base ==4.10.1.0: using base-4.10.1.0
+    Dependency binary ==0.8.5.1: using binary-0.8.5.1
+    Dependency distributed-process ==0.7.4: using distributed-process-0.7.4
+    Dependency distributed-static ==0.3.8: using distributed-static-0.3.8
+    Dependency unix ==2.7.2.2: using unix-2.7.2.2
+    Source component graph: component exe:linker-error-exec
+    Configured component graph:
+        component static-ptr-linker-error-0.1.0.0-GBVy1ITQbamFvvlWrypdmm-linker-error-exec
+            include base-4.10.1.0
+            include binary-0.8.5.1
+            include distributed-process-0.7.4-E7NQOJvYIjg1WVYvynHXOD
+            include distributed-static-0.3.8-J71VEstE3q1134khXj24LB
+            include unix-2.7.2.2
+    Linked component graph:
+        unit static-ptr-linker-error-0.1.0.0-GBVy1ITQbamFvvlWrypdmm-linker-error-exec
+            include base-4.10.1.0
+            include binary-0.8.5.1
+            include distributed-process-0.7.4-E7NQOJvYIjg1WVYvynHXOD
+            include distributed-static-0.3.8-J71VEstE3q1134khXj24LB
+            include unix-2.7.2.2
+    Ready component graph:
+        definite static-ptr-linker-error-0.1.0.0-GBVy1ITQbamFvvlWrypdmm-linker-error-exec
+            depends base-4.10.1.0
+            depends binary-0.8.5.1
+            depends distributed-process-0.7.4-E7NQOJvYIjg1WVYvynHXOD
+            depends distributed-static-0.3.8-J71VEstE3q1134khXj24LB
+            depends unix-2.7.2.2
+    Using Cabal-2.0.1.0 compiled by ghc-8.2
+    Using compiler: ghc-8.2.2
+    Using install prefix: /home/dssimmon/.cabal
+    Executables installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/bin
+    Libraries installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/lib/x86_64-linux-ghc-8.2.2/static-ptr-linker-error-0.1.0.0
+    Dynamic Libraries installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/lib/x86_64-linux-ghc-8.2.2
+    Private executables installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/libexec/x86_64-linux-ghc-8.2.2/static-ptr-linker-error-0.1.0.0
+    Data files installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/share/x86_64-linux-ghc-8.2.2/static-ptr-linker-error-0.1.0.0
+    Documentation installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/doc/static-ptr-linker-error-0.1.0.0
+    Configuration files installed in:
+    /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/etc
+    No alex found
+    Using ar found on system at: /usr/bin/ar
+    No c2hs found
+    Using cpphs version 1.20.8 found on system at:
+    /central/home/dssimmon/.stack/snapshots/x86_64-linux/lts-11.13/8.2.2/bin/cpphs
+    No doctest found
+    Using gcc version 7.3.0 found on system at: /software/gcc/7.3.0/bin/gcc
+    Using ghc version 8.2.2 given by user at:
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/ghc
+    Using ghc-pkg version 8.2.2 given by user at:
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/ghc-pkg
+    No ghcjs found
+    No ghcjs-pkg found
+    No greencard found
+    Using haddock version 2.18.1 found on system at:
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/haddock
+    Using happy version 1.19.9 found on system at:
+    /central/home/dssimmon/.stack/snapshots/x86_64-linux/lts-11.13/8.2.2/bin/happy
+    Using haskell-suite found on system at: haskell-suite-dummy-location
+    Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+    No hmake found
+    Using hpc version 0.67 found on system at:
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/hpc
+    Using hsc2hs version 0.68.2 found on system at:
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/hsc2hs
+    Using hscolour version 1.24 found on system at:
+    /central/home/dssimmon/.stack/snapshots/x86_64-linux/lts-11.13/8.2.2/bin/HsColour
+    No jhc found
+    Using ld found on system at: /usr/bin/ld.gold
+    No lhc found
+    No lhc-pkg found
+    Using pkg-config version 0.27.1 found on system at: /usr/bin/pkg-config
+    Using runghc version 8.2.2 found on system at:
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/runghc
+    Using strip version 2.27 found on system at: /usr/bin/strip
+    Using tar found on system at: /usr/bin/tar
+    No uhc found
+    Component build order: executable 'linker-error-exec'
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/ghc-pkg init .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/package.conf.inplace
+    creating .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec
+    creating
+    .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen
+    creating
+    .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen
+    Preprocessing executable 'linker-error-exec' for static-ptr-linker-error-0.1.0.0..
+    Building executable 'linker-error-exec' for static-ptr-linker-error-0.1.0.0..
+    creating .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec
+    creating
+    .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/ghc --make -no-link -fbuilding-cabal-package -O -static -outputdir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -odir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -hidir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -stubdir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -i -i.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -i. -i.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen -i.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/global-autogen -I.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen -I.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/global-autogen -I.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -optP-include -optP.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen/cabal_macros.h -hide-all-packages -Wmissing-home-modules -no-user-package-db -package-db /central/home/dssimmon/.stack/snapshots/x86_64-linux/lts-11.13/8.2.2/pkgdb -package-db /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/pkgdb -package-db .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/package.conf.inplace -package-id base-4.10.1.0 -package-id binary-0.8.5.1 -package-id distributed-process-0.7.4-E7NQOJvYIjg1WVYvynHXOD -package-id distributed-static-0.3.8-J71VEstE3q1134khXj24LB -package-id unix-2.7.2.2 -XHaskell2010 Paths_static_ptr_linker_error ./Main.hs -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -dcore-lint -ddump-hi -ddump-to-file
+    [2 of 2] Compiling Main             ( Main.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp/Main.o )
+    Linking...
+    /central/home/dssimmon/.stack/programs/x86_64-linux/ghc-8.2.2/bin/ghc --make -fbuilding-cabal-package -O -static -outputdir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -odir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -hidir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -stubdir .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -i -i.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -i. -i.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen -i.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/global-autogen -I.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen -I.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/global-autogen -I.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp -optP-include -optP.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/autogen/cabal_macros.h -hide-all-packages -Wmissing-home-modules -no-user-package-db -package-db /central/home/dssimmon/.stack/snapshots/x86_64-linux/lts-11.13/8.2.2/pkgdb -package-db /central/home/dssimmon/projects/static-ptr-linker-error/.stack-work/install/x86_64-linux/lts-11.13/8.2.2/pkgdb -package-db .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/package.conf.inplace -package-id base-4.10.1.0 -package-id binary-0.8.5.1 -package-id distributed-process-0.7.4-E7NQOJvYIjg1WVYvynHXOD -package-id distributed-static-0.3.8-J71VEstE3q1134khXj24LB -package-id unix-2.7.2.2 -XHaskell2010 Paths_static_ptr_linker_error ./Main.hs -o .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -dcore-lint -ddump-hi -ddump-to-file
+    Linking .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec ...
+    .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/linker-error-exec/linker-error-exec-tmp/Main.o:ghc_5.c:function hs_spt_init_Main: error: undefined reference to 'rcWp_closure'
+    collect2: error: ld returned 1 exit status
+    `gcc' failed in phase `Linker'. (Exit code: 1)
