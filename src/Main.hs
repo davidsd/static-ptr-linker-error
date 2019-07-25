@@ -1,17 +1,6 @@
-{-# LANGUAGE DeriveAnyClass             #-}
-{-# LANGUAGE DerivingStrategies         #-}
-{-# LANGUAGE FlexibleContexts           #-}
-{-# LANGUAGE FlexibleInstances          #-}
-{-# LANGUAGE GeneralizedNewtypeDeriving #-}
-{-# LANGUAGE LambdaCase                 #-}
-{-# LANGUAGE MultiParamTypeClasses      #-}
-{-# LANGUAGE OverloadedStrings          #-}
 {-# LANGUAGE RankNTypes                 #-}
 {-# LANGUAGE RecordWildCards            #-}
-{-# LANGUAGE ScopedTypeVariables        #-}
 {-# LANGUAGE StaticPointers             #-}
-{-# LANGUAGE TypeApplications           #-}
-{-# LANGUAGE TypeFamilies               #-}
 
 module Main where
 

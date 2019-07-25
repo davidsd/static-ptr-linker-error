@@ -10,7 +10,7 @@ result is a linker error:
         Process exited with code: ExitFailure 1
 
 The error goes away if one performs simple code transformations, for
-example, in line 94, if one replaces
+example, in line 83, if one replaces
 
     (\(_,_) -> undefined)
 
