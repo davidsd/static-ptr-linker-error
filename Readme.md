@@ -24,6 +24,10 @@ I initially observed this error in a codebase of about 50 modules. I
 tried to simplify the code that exhibits the error as much as
 possible. Unfortunately, I have not been able to simplify it further
 -- most code transformations, or substitutions with `undefined` cause
-the linker error to go away. The error also goes away if one turns on
--O2, but that does not help in general. In the codebase where I
-originally observed this error, I had -O2 turned on.
+the linker error to go away. The code is nonsensical because I have
+substituted several expressions with `undefined` in an attempt to
+simplify it.
+
+ The error also goes away if one turns on -O2, but that does not help
+in general. In the codebase where I originally observed this error, I
+had -O2 turned on.
