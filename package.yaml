@@ -1,0 +1,19 @@
+name: static-ptr-linker-error
+version: '0.1.0.0'
+author: David Simmons-Duffin
+maintainer: davidsd@gmail.com
+license: MIT
+
+ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
+
+dependencies:
+- base
+- distributed-static
+- distributed-process
+- unix
+- binary
+
+executables:
+  linker-error-exec:
+    main: Main.hs
+    source-dirs: src

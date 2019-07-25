@@ -1,0 +1,7 @@
+flags: {}
+packages:
+- '.'
+extra-deps:
+- git: https://github.com/haskell-distributed/distributed-process.git
+  commit: d91a88f70c2cb6a6511283c5720bd9950fc3c55a
+resolver: lts-11.13
