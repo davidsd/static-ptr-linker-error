@@ -1,0 +1,20 @@
+name:           static-ptr-linker-error
+version:        0.1.0.0
+author:         David Simmons-Duffin
+maintainer:     davidsd@gmail.com
+license:        MIT
+build-type:     Simple
+cabal-version:  >= 1.10
+
+executable linker-error-exec
+  main-is: Main.hs
+  other-modules:
+      Paths_static_ptr_linker_error
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -dcore-lint
+  build-depends:
+      base
+    , binary
+    , distributed-process
+    , distributed-static
+    , unix
+  default-language: Haskell2010
